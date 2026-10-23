@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+#loading {
+  display: none;
+  margin: 20px;
+  color: blue;
+}
+
+#error {
+  color: red;
+  margin: 15px;
+}
+
+#output {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+#output img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
